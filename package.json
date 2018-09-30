@@ -1,6 +1,10 @@
 {
-  "name": "Creator X by Phantomus",
-  "version": "1.0",
+  "name": "creatorx",
+  "author": {
+    "name": "Phantomus",
+    "email": "benjamin.blair.chrobot@gmail.com"
+  },
+  "version": "2.0.0",
   "keywords": ["ghost-theme"],
   "config": {
     "posts_per_page": 5
