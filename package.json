@@ -1,5 +1,8 @@
 {
   "name": "Creator X by Phantomus",
   "version": "1.0",
-  "keywords": ["ghost-theme"]
+  "keywords": ["ghost-theme"],
+  "config": {
+    "posts_per_page": 5
+  }
 }
