@@ -26,16 +26,16 @@
 			var loadDisqus = true;
 			if (typeof DISQUS != 'undefined') {
 				DISQUS.reset({reload: true, config: function () {
-						this.page.identifier = '{{id}}';
-						this.page.url = location.protocol + '//' + window.location.host + '{{url}}#!/{{id}}';
+						this.page.identifier = '{{comment_id}}';
+						this.page.url = location.protocol + '//' + window.location.host + '{{url}}#!/{{comment_id}}';
 					}
 				});
 				loadDisqus = false;
 			}
 
 			var disqus_shortname = disqusShortName;
-			var disqus_identifier = '{{id}}';
-			var disqus_url = location.protocol + '//' + window.location.host + '{{url}}#!/{{id}}';
+			var disqus_identifier = '{{comment_id}}';
+			var disqus_url = location.protocol + '//' + window.location.host + '{{url}}#!/{{comment_id}}';
 			
 			if (loadDisqus) {
 				$('#disqus_thread_container').css('display', 'block');
